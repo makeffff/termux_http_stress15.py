@@ -2561,7 +2561,7 @@ def main():
     p.add_argument("--ramp-up", type=float, default=0)
 
     p.add_argument("--threshold", type=str, default=None,
-                   help="阈值断言 (p99<500ms;error_rate<0.01;status_500<1%), 违约 exit 2")
+                   help="阈值断言 (p99<500ms;error_rate<0.01;status_500<1%%), 违约 exit 2")
     p.add_argument("--circuit-breaker", type=int, default=0)
     p.add_argument("--dry-run", action="store_true")
     p.add_argument("--report-html", type=str, default=None)
