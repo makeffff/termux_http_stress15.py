@@ -1,6 +1,6 @@
-Termux HTTP Stress Test v23 — Stable Performance Edition
+#Termux HTTP Stress Test v23 — Stable Performance Edition
 
-仅用于对已获授权的目标进行性能测试。
+#仅用于对已获授权的目标进行性能测试。
 
 import argparse
 import asyncio
